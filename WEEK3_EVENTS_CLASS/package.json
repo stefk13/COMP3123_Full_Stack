@@ -1,0 +1,14 @@
+{
+  "name": "week3_events_class",
+  "version": "1.0.0",
+  "description": "Event Class Example",
+  "main": "event_example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node event_example.js",
+    "start:file": "node files_example.js",
+    "start:global": "node global_objects_examples.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -59,6 +59,7 @@ app.get("/emp", (req, res) => {
     }
 })
 
+//Is it supposed to return undefined?
 app.post("/faculty", (req, res) => {
     let data = req.body
     console.log(data)

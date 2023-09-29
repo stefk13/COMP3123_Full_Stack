@@ -59,6 +59,12 @@ app.get("/emp", (req, res) => {
     }
 })
 
+app.post("/faculty", (req, res) => {
+    let data = req.body
+    console.log(data)
+    res.send(data)
+})
+
 app.listen(SERVER_PORT, () => {
     console.log(`Server running at http://localhost:${SERVER_PORT}/`)
 })

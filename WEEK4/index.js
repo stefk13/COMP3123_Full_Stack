@@ -5,7 +5,9 @@ var app = express()
 
 //Static middleware
 app.use("/test", express.static( "./public"))
-
+app.use(express.json())
+app.use(express.text())
+app.use(express.urlencoded({extended: true}))
 
 app.get("/index",(req, res) => {
     res.sendFile(__dirname+"/public/index.html")
@@ -59,10 +61,10 @@ app.get("/emp", (req, res) => {
     }
 })
 
-//Is it supposed to return undefined?
 app.post("/faculty", (req, res) => {
     let data = req.body
     console.log(data)
+    
     res.send(data)
 })
 

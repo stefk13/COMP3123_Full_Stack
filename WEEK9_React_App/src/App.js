@@ -1,5 +1,5 @@
 import React from "react";
-import Name from "./Name";
+import Name from "./components/Name";
 import Welcome from "./components/welcome/Welcome";
 import Student from "./components/student/Student";
 
@@ -10,7 +10,7 @@ function App() {
     <h1>Hello ReactJS</h1>
     <Welcome/>
     <Name fnm="Stefan" lnm="Kepinski"/>
-    <Student college="George Brown"/>
+    <Student college="George Brown College"/>
   </React.Fragment>
   );
 }

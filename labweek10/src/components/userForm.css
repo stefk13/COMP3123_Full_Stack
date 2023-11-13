@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.user-form-container {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: calc(100% - 20px); 
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 20px; 
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.submit-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.info-display {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info-title {
+    color: green;
+    font-weight: bold;
+}
+
+.info-message {
+    color: red;
+    margin-top: 20px;
+}

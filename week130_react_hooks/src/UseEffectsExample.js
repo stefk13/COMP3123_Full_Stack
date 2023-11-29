@@ -1,4 +1,5 @@
 import React, {useEffect, useState, useMemo, useCallback} from 'react'
+import UseCallBackExample from './UseCallBackExample'
 
 export default function UseEffectExample() {
   
@@ -55,6 +56,7 @@ export default function UseEffectExample() {
         <button onClick={() => setA(a + 1)}>Update A</button>
         <button onClick={() => setB(b + 1)}>Update B</button>
         <button onClick={() => setC(c + 0)}>Update C</button>
+        <UseCallBackExample handler={myCallbackFunctionHandler} />
     </div>
   )
 }
